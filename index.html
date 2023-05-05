@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>TypeRacer Game</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div><h1>TypeRacer GAME</h1></div>
+	<div><strong>High Score: </strong> <span id="high_score"> - </span></div>
+	<div class="wrapper">
+	  <p id="problem"> Problem Statement will appear here when you will start the game. Timer will start after you enter the first letter.</p>
+	  <textarea id="solution" autocomplete="disabled" disabled> </textarea>
+	</div>
+	<div>
+		<button id="play">Play now</button>		
+	</div>
+	<div id="stats" class="stats" style="display: none;">
+		<h2>Stats: </h2>
+		<div><strong>Score: </strong><span id="score"> -</span></div>
+		<div><strong>Accuracy: </strong><span id="accuracy"> -</span> %</div>
+		<div><strong>Word Count: </strong><span id="word_count"> -</span> wpm</div>
+		<div><strong>Time Taken: </strong><span id="time_taken"> -</span> sec</div>
+	</div>
+	<script type="text/javascript" src="typeracer.js"></script>
+</body>
+</html>
